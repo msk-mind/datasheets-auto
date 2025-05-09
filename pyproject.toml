@@ -1,0 +1,16 @@
+[project]
+name = "datasheets-auto"
+version = "0.1.0"
+description = "Generate datasheets-for-datasheets template"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "databricks>=0.2",
+    "pandas>=2.2.3",
+    "pyspark>=3.5.5",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.2.0",
+]
